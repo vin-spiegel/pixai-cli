@@ -1,0 +1,31 @@
+{
+  "name": "pixai-cli",
+  "version": "0.1.0",
+  "description": "Unofficial command-line client for the PixAI image generation API",
+  "type": "module",
+  "bin": {
+    "pixai": "bin/pixai.mjs"
+  },
+  "exports": "./src/api.mjs",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pixai",
+    "cli",
+    "image-generation",
+    "anime"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vin-spiegel/pixai-cli.git"
+  },
+  "license": "MIT"
+}
