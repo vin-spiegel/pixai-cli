@@ -12,13 +12,13 @@ This project is not affiliated with or endorsed by PixAI. It calls the PixAI RES
 ## Install
 
 ```sh
-npm install -g github:vin-spiegel/pixai-cli
+npm install -g pixai-cli
 ```
 
 Or run it without installing:
 
 ```sh
-npx github:vin-spiegel/pixai-cli --help
+npx pixai-cli --help
 ```
 
 ## Set up
